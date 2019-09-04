@@ -20,6 +20,7 @@ it('create one LI per comment', () => {
 });
 
 it('show the text for each comment', () => {
+	// render returns a cherriowrapper
 	expect(wrapped.render().text()).toContain('Comment 1');
 	expect(wrapped.render().text()).toContain('Comment 2');
 });
